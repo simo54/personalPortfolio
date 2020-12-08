@@ -1,0 +1,30 @@
+body {
+  overflow: hidden;
+}
+
+.head {
+  height: 100vh;
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#contacts {
+  position: absolute;
+  top: 0;
+  right: 10;
+}
+
+#iconsBox span {
+  margin: 8px 18px;
+}
+
+.animate__animated.animate__bounceInRight {
+  --animate-duration: 3s;
+}
