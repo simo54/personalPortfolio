@@ -1,9 +1,10 @@
 body {
-  overflow: hidden;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .head {
-  height: 100vh;
+  height: 90vh;
   background-color: #fad961;
   background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
   background-position: center;
