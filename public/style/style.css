@@ -29,3 +29,18 @@ body {
 .animate__animated.animate__bounceInRight {
   --animate-duration: 3s;
 }
+
+#about {
+  height: 40vh;
+}
+
+.about_section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+
+.about_effect {
+  opacity: 1;
+  transform: translateY(0px);
+}
