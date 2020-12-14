@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -21,7 +20,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <section class="head">
+    <section id="section-body" class="head">
       <div id="contacts" class="container-fluid d-flex justify-content-end">
         <div id="iconsBox" class="d-flex space-around">
           <span
@@ -72,7 +71,7 @@
         </div>
       </div>
 
-      <header>
+      <header class="container">
         <h1 class="animate__animated animate__backInDown text-center display-1">
           Welcome, my name is Simone!
         </h1>
@@ -86,8 +85,42 @@
     </section>
 
     <div class="container-fluid">
+      <div id="about" class="row align-items-center">
+        <div class="col" data-aos="fade-up">
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            accusamus incidunt laboriosam aspernatur.
+          </p>
+        </div>
+        <div class="col text-center">
+          <img src="./assets/emojyme.png" alt="simone_emojy" width="250" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div id="stack" class="row align-items-center">
+        <div class="col text-center p-0">
+          <div id="codesnippet-container">
+            <img src="./assets/carbon.png" alt="simone_emojy" />
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up">
+          <h2>My Stack</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            accusamus incidunt laboriosam aspernatur, magnam voluptatibus in qui
+            quia sit labore, perferendis distinctio ut nobis illo fuga mollitia
+            dolor corrupti soluta.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
       <div id="about" class="row text-center align-items-center">
-        <div class="col about_section" data-aos="fade-up">
+        <div class="col" data-aos="fade-up">
           <h2>About Me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
@@ -99,36 +132,6 @@
         <div class="col">
           <img src="./assets/emojyme.png" alt="simone_emojy" width="250" />
         </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row text-center align-items-center">
-        <div class="col">
-          <h2>About Me</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            accusamus incidunt laboriosam aspernatur, magnam voluptatibus in qui
-            quia sit labore, perferendis distinctio ut nobis illo fuga mollitia
-            dolor corrupti soluta.
-          </p>
-        </div>
-        <div class="col">Emojy</div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row text-center align-items-center">
-        <div class="col">
-          <h2>About Me</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            accusamus incidunt laboriosam aspernatur, magnam voluptatibus in qui
-            quia sit labore, perferendis distinctio ut nobis illo fuga mollitia
-            dolor corrupti soluta.
-          </p>
-        </div>
-        <div class="col">Emojy</div>
       </div>
     </div>
 
@@ -169,7 +172,7 @@
     <script src="./index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({ once: true, offset: 400 });
+      AOS.init({ once: true, offset: 500 });
     </script>
   </body>
 </html>

@@ -34,13 +34,15 @@ body {
   height: 40vh;
 }
 
-.about_section {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: 0.5s all ease-in-out;
+#stack {
+  height: 40vh;
+  background-color: #fad961;
 }
 
-.about_effect {
-  opacity: 1;
-  transform: translateY(0px);
+#codesnippet-container {
+  padding: 0;
+}
+
+#codesnippet-container img {
+  width: 500px;
 }
