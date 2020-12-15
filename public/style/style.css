@@ -46,3 +46,38 @@ body {
 #codesnippet-container img {
   width: 500px;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #about {
+    height: 50vh;
+  }
+
+  #stack {
+    height: 50vh;
+    background-color: #fad961;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #about {
+    height: 50vh;
+  }
+
+  #stack {
+    height: 50vh;
+    background-color: #fad961;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #codesnippet-container img {
+    width: 350px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
