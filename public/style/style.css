@@ -51,6 +51,13 @@ body {
   font-size: 4em;
 }
 
+#copy2clipboard {
+  cursor: pointer;
+}
+
+#text2clipboard {
+  display: none;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   #about {
