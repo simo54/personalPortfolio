@@ -17,6 +17,11 @@
 
     <link rel="stylesheet" href="./style/style.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+    />
+
     <title>Simone</title>
   </head>
   <body>
@@ -73,13 +78,13 @@
 
       <header class="container">
         <h1 class="animate__animated animate__backInDown text-center display-1">
-          Welcome, my name is Simone!
+          Welcome, my name is Simone*!
         </h1>
         <h3
           id="titleAnimation"
           class="text-center animate__animated animate__bounceInRight"
         >
-          A Full Stack Developer
+          *a Full Stack Developer
         </h3>
       </header>
     </section>
@@ -121,46 +126,85 @@
     <div class="container-fluid">
       <div id="about" class="row text-center align-items-center">
         <div class="col-md">
-          <h2>My Stack</h2>
+          <h2>My Stack <span id="copy2clipboard">📋</span></h2>
+          <div class="mt-5">
+            <marquee behavior="scroll" direction="left"
+              ><i class="devicon-react-original colored stacks_icon"></i>
+              <i class="devicon-visualstudio-plain colored stacks_icon"></i>
+              <i class="devicon-bootstrap-plain colored stacks_icon"></i>
+              <i class="devicon-css3-plain colored stacks_icon"></i>
+              <i class="devicon-express-original colored stacks_icon"></i>
+              <i class="devicon-git-plain colored stacks_icon"></i>
+              <i class="devicon-github-original colored stacks_icon"></i>
+              <i class="devicon-html5-plain colored stacks_icon"></i>
+              <i class="devicon-javascript-plain colored stacks_icon"></i>
+              <i class="devicon-jquery-plain-wordmark colored stacks_icon"></i>
+              <i class="devicon-less-plain-wordmark colored stacks_icon"></i>
+              <i class="devicon-mongodb-plain-wordmark colored stacks_icon"></i>
+              <i class="devicon-nodejs-plain colored stacks_icon"></i>
+              <i class="devicon-npm-original-wordmark colored stacks_icon"></i>
+              <i class="devicon-postgresql-plain colored stacks_icon"></i>
+              <i class="devicon-python-plain-wordmark colored stacks_icon"></i>
+              <i class="devicon-redux-original colored stacks_icon"></i>
+              <i class="devicon-sass-original colored stacks_icon"></i>
+              <i
+                class="devicon-sequelize-plain-wordmark colored stacks_icon"
+              ></i>
+              <i class="devicon-mysql-plain-wordmark colored stacks_icon"></i
+            ></marquee>
+          </div>
         </div>
       </div>
     </div>
 
-    <div>
-      Icons made by
-      <a
-        href="https://www.flaticon.com/authors/pixel-perfect"
-        title="Pixel perfect"
-        >Pixel perfect</a
-      >
-      from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    </div>
+    <footer>
+      <div>
+        Icons made by
+        <a
+          href="https://www.flaticon.com/authors/pixel-perfect"
+          title="Pixel perfect"
+          >Pixel perfect</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
 
-    <div>
-      Icons made by
-      <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
-        >Freepik</a
-      >
-      from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+          >Freepik</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
 
-    <div>
-      Icons made by
-      <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy"
-        >Dave Gandy</a
-      >
-      from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    </div>
+      <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy"
+          >Dave Gandy</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
+    </footer>
 
+    <!-- Bootstrap scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Local script -->
     <script src="./index.js"></script>
+
+    <!-- AOS scripts for scrolldown effect-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({ once: true, offset: 500 });
