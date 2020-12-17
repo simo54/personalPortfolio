@@ -39,6 +39,11 @@ body {
   background-color: #fad961;
 }
 
+#clickme {
+  font-size: 0.8em;
+  color: #fad961;
+}
+
 #codesnippet-container {
   padding: 0;
 }
@@ -47,17 +52,38 @@ body {
   width: 500px;
 }
 
-.stacks_icon {
-  font-size: 4em;
-}
-
 #copy2clipboard {
   cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+#copy2clipboard #tooltiptext {
+  display: none;
+  width: 120px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 0.5em;
+}
+
+.stacks_icon {
+  font-size: 4em;
 }
 
 #text2clipboard {
   display: none;
 }
+
+#tooltiptext {
+  display: none;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   #about {
